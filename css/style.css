@@ -1,0 +1,100 @@
+
+body{
+      font-family: "Cormorant Upright", serif;
+}
+
+
+h1{
+    text-align: center;
+
+}
+
+.reel-container{
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid whitesmoke;
+    background-color:cornflowerblue;
+    border-radius: 20px;
+}
+.reel-wrapper{
+    display: flex; 
+    gap: 40px;
+    margin:20px;
+}
+
+ 
+.reel-box{
+    width: 270px;
+    height: 180px;
+    background-color: antiquewhite;
+    border: 5px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+
+}
+
+.reel-box p {
+    font-size: 3rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+
+    
+}
+.btn-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+  margin-top: 30px;
+    
+}
+
+.btn {
+     font-family: "Cormorant Upright", serif;
+    padding: 10px;
+    width: 100px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+#bet-5{
+    background-color: blanchedalmond;
+}
+#bet-50{
+    background-color:darkslategray;
+    color:white;
+}
+
+.credit-wrapper{
+display: flex;
+padding: 10px;
+justify-content: space-between;
+
+}
+#credit,#current,#bet{
+    padding: 5px;
+    width: 150px;
+    height: 40px;
+   text-align: center;
+   font-size: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+font-weight: bolder;
+}
+
+.winner {
+    background-color:gold;
+    border: 5px solid blue;
+}
+
+.red{
+    border: 3px solid red;
+}
