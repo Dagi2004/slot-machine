@@ -1,24 +1,48 @@
-# 🎰 Week05 Bootcamp2019 Project: Slot Machine
+🎰 Slot Machine
 
-### Goal: Build a Simple Slot Machine
+A simple browser-based slot machine game built with JavaScript. 
+The player spins 3 reels, places a bet, and watches their balance update based on the outcome of each round.
 
-Build a simple slot machine with minimum 5 items per reel and 3 reels - user should be able to bet min or max and have their total update
+## Features
 
-### How to submit your code for review:
+- 3 reels with multiple symbols on each reel
+- Minimum 5 items per reel
+- Player can bet the minimum or maximum amount
+- Balance updates after each spin
+- Randomized reel results
+- Simple win/loss gameplay loop
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+How the game works
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+- The game creates a set of reels with multiple symbols.
+- Each spin randomly selects a symbol for each reel.
+- The result is checked against the game rules.
+- If the player wins, the payout is added to their total.
+- If the player loses, the bet is deducted from their balance.
+
+## Project goal
+
+This project follows the challenge of creating a small slot machine that includes:
+
+- 3 reels
+- 5+ symbols per reel
+- minimum and maximum betting
+- updated total balance after each bet
+
+Example gameplay
+
+- Player starts with a balance, for example 100
+- Chooses a minimum bet or maximum bet
+- Spins the reels
+- Sees a win or loss
+- Balance updates immediately
+
+## Tech stack
+
+- HTML
+- CSS
+- JavaScript
+
+## License
+
+This project is intended for learning and personal use.
